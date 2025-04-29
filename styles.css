@@ -1,0 +1,389 @@
+header{
+  font-size: 75px;
+  text-align: center;
+  color: #ff0000;
+  font-family: 'Boldonse', serif;
+  padding-top: 40px;
+}
+.navbar{
+  font-family: 'Boldoense';
+}
+body{
+  background-color: black;
+}
+
+/* Quote Style */
+.quote {
+font-size: 35px;
+text-align: center;
+font-family: 'Playwrite AU SA', cursive;
+color: white;
+background-size: cover;
+background-position: center;
+padding: 50px;
+margin: 30px 0;
+border-radius: 10px;
+
+background-blend-mode: overlay;
+background-repeat: no-repeat;
+background-attachment: scroll;
+}
+
+/* Quote Font */
+.playwrite-au-sa-<uniquifier> {
+  font-family: "Playwrite AU SA", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+/* Header Font */
+.boldonse-regular {
+  font-family: "Boldonse", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+/* Content Font */
+.bodoni-moda-<uniquifier> {
+font-family: "Bodoni Moda", serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
+}
+
+/* Sub Heading Fonts */
+.bona-nova-sc-regular {
+font-family: "Bona Nova SC", serif;
+font-weight: 400;
+font-style: normal;
+}
+.bona-nova-sc-bold {
+font-family: "Bona Nova SC", serif;
+font-weight: 700;
+font-style: normal;
+}
+.bona-nova-sc-regular-italic {
+font-family: "Bona Nova SC", serif;
+font-weight: 400;
+font-style: italic;
+}
+
+
+/* Flexbox container */
+.flex-container {
+display: flex;
+justify-content: center;
+gap: 40px;
+margin-top: 30px;
+margin-bottom: 50px;
+flex-wrap: wrap;
+}
+.flex-container div {
+position: relative;
+max-width: 350px; /* Increased max-width for bigger images */
+width: 100%;
+text-align: center;
+}
+.flex-container a {
+text-decoration: none;
+color: inherit;
+}
+.flex-container img {
+width: 100%;
+height: auto;
+border-radius: 10px;
+box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.flex-container img:hover {
+transform: scale(1.05); 
+box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.4);
+}
+.flex-container .caption {
+position: absolute;
+bottom: 10px;
+left: 50%;
+transform: translateX(-50%);
+font-size: 18px;
+font-weight: bold;
+color: white;
+background-color: rgba(0, 0, 0, 0.6);
+padding: 5px 10px;
+border-radius: 5px;
+}
+.site-footer {
+margin-top: 50px;
+}
+
+
+/* Captions on images of drivers on home page */  
+.caption {
+position: absolute;
+bottom: 10px;
+left: 10px;
+right: 10px;
+padding: 10px;
+background-color: rgba(0, 0, 0, 0.5);
+color: white;
+font-size: 18px;
+font-weight: bold;
+border-radius: 5px;
+text-align: center;
+}
+/* Footer Style */
+footer.site-footer {
+background-color: #343a40;
+color: white;
+padding: 30px 0;
+text-align: center;
+}
+footer .footer-links {
+list-style: none;
+padding: 0;
+}
+footer .footer-links li {
+display: inline;
+margin: 0 10px;
+}
+footer .footer-links a {
+color: white;
+text-decoration: none;
+font-size: 14px;
+}
+footer .footer-links a:hover {
+text-decoration: underline;
+}
+
+
+/*Contact Style*/
+.contact-page {
+max-width: 700px;
+margin: 40px auto;
+padding: 20px;
+background: #880d0d;
+border-radius: 8px;
+}
+.contact-info p {
+margin: 5px 0;
+color: white;
+font-family: 'Bodoni Moda', serif;
+}
+.contact-form form {
+display: flex;
+flex-direction: column;
+}
+.contact-form label {
+margin-top: 15px;
+font-weight: bold;
+color: white;
+font-family: 'Bodoni Moda', serif;
+}
+.contact-form input,
+.contact-form textarea {
+margin-top: 5px;
+padding: 10px;
+font-size: 1em;
+border: 1px solid #000000;
+border-radius: 4px;
+}
+.contact-form button {
+margin-top: 20px;
+padding: 10px;
+background: #f5c61b;
+color: rgb(255, 255, 255);
+border: none;
+border-radius: 4px;
+cursor: pointer;
+font-family: 'Bodoni Moda', serif;
+}
+.contact-form button:hover {
+background: #240202;
+}
+
+
+/*Contact Background Image*/
+.backgroundimage {
+margin: 0;
+font-family: 'Bodoni Moda', serif;
+background-image: url('backgroundcontact.avif');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+color: white;
+}
+body::before {
+content: "";
+position: fixed;
+top: 0; left: 0; right: 0; bottom: 0;
+background: rgba(0, 0, 0, 0.6);
+z-index: -1;
+}
+/*Drivers Page*/
+.driversbody {
+background: url('LewisCharlesBack.webp') no-repeat center center fixed;
+background-size: cover;
+color: #fff;
+font-family: 'Bodoni Moda', serif;
+margin: 0;
+padding: 0;
+}
+.drivers-preview {
+padding: 40px 0;
+}
+.driver-card {
+background-color: rgba(0, 0, 0, 0.95);
+border: none;
+border-radius: 10px;
+box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+transition: transform 0.3s;
+}
+.driver-card:hover {
+transform: scale(1.03);
+}
+.driver-card img {
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+height: 300px;
+object-fit: cover;
+}
+
+/*Drivers Page*/
+/* Hero Section */
+.hero {
+height: 400px;
+background-size: cover;
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+text-align: center;
+}
+.hero h1 {
+font-size: 3.5rem;
+font-weight: bold;
+}
+.hero p {
+font-size: 1.5rem;
+}
+/* About Section */
+.about-section {
+background-color: #240101;
+;
+border-radius: 10px;
+padding: 40px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.about-section h2 {
+font-size: 45px;
+color: #d00000;
+font-family: 'Bodoni Moda', serif;
+font-weight: bold;
+}
+.about-section p{
+font-family: 'Bodoni Moda', serif;
+font-size: 25px;
+color: white;
+}
+/* Stats Section */
+.stats-section{
+background-color: #240101;
+;
+border-radius: 10px;
+padding: 40px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.stats-section h2 {
+font-size: 45px;
+color: #d00000;
+font-family: 'Bodoni Moda', serif;
+font-weight: bold;
+}
+.stats-section .col-md-4 {
+text-align: center;
+margin-bottom: 20px;
+}
+.stats-section h4 {
+font-size: 1.5rem;
+color: #ffffff;
+font-family: "Bodoni Moda", serif;
+}
+.stats-section p{
+color: #ffffff;
+font-family: "Bodoni Moda", serif;
+}
+
+
+/*Track Section*/
+.image-container {
+position: relative;
+width: 100%;
+height: auto;
+}
+.responsive-img {
+width: 100%;
+height: auto;
+display: block;
+object-fit: cover;
+}
+.text-overlay {
+position: absolute;
+top: 20px;
+left: 20px;
+text-align: left;
+color: white;
+background: rgba(0, 0, 0, 0.5); /* Optional: adds readability */
+
+margin-right: 40vw;
+padding: 10px 15px;
+border-radius: 5px;
+max-width: 90%;
+}
+
+.text-overlay h2 {
+margin: 0;
+font-size: 45px;
+font-family: 'Bodoni Moda', serif;
+font-weight: bold;
+}
+
+.text-overlay p {
+margin-top: 10px;
+font-size: 25px;
+font-family:'Bodoni Moda', serif;
+}
+
+@media (max-width: 768px) {
+.text-overlay h2 {
+  font-size: 1.4rem;
+}
+.text-overlay p {
+  font-size: 0.9rem;
+}
+}
+
+/* Ferrari History Background */
+.history-background {
+background-image: url('historybackground.jpg'); /* Replace with your background image */
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+color: white;
+font-family: 'Bodoni Moda', serif;
+margin: 0;
+padding: 0;
+position: relative;
+}
+.history-background::before {
+content: "";
+position: fixed;
+top: 0; left: 0; right: 0; bottom: 0;
+background: rgba(0, 0, 0, 0.6); /* Dark overlay */
+z-index: -1;
+}
+/*Icon*/
+.navbar-icon {
+  width: 40px;   /* Adjust size as needed */
+  height: auto;  /* Maintain aspect ratio */
+}
